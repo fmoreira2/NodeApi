@@ -1,0 +1,22 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch server/src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fastify/cors": "^8.2.1",
+    "@prisma/client": "^4.11.0",
+    "fastify": "^4.15.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.11.0",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.2"
+  }
+}
