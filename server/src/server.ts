@@ -1,7 +1,7 @@
 //Back-end api rest
 import Fastify from 'fastify'
 import cors from '@fastify/cors'
-import { PrismaClient } from '@prisma/client'
+import {PrismaClient}  from '@prisma/client'
 
 const app = Fastify()
 const prisma = new PrismaClient()
